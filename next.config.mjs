@@ -12,8 +12,18 @@
 
 // export default nextConfig
 
-export default {
-  turbopack: {
-    // You can put options here later if needed
+// export default {
+//   turbopack: {
+//     // You can put options here later if needed
+//   },
+// };
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    useLightningcss: false
   },
+  // ... your other config
 };
+
+export default nextConfig;
+
